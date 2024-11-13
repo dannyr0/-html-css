@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Webpage</title>
+</head>
+<body>
+  <div class="container">
+
+    <nav class="navigation">
+      <div class="menu-container">
+        <ul>
+          <li>
+            <a href="recipe-page.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Recipe</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+
+          <p class="hero-text-smallest">#1 Bender’s most shiny recipe</p>
+          <p class="hero-text-medium">Boozy brown</p>
+          <p class="hero-text-large">Lentil soup</p>
+          <p class="hero-text-smallest">40% healthy</p>
+        </div>
+        <div class="hero-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-thin fa-bowl-chopsticks-noodles"></i>
+          <input type="search" name="" class="search-input" placeholder="Search">
+        </div>
+      </div>
+    </section>
+
+    <section class="todays_recipe">
+      <div class="todays_recipes_headline">
+          <h3>Recipe of the day</h3>
+      </div>
+
+      <div class="todays_recipes_content">
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src=https://i.pinimg.com/originals/02/eb/24/02eb24855501a15822a2a3f1de630e10.jpg alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top category-seafoodx">
+              <h4>Seafood</h4>
+              <p>Lorem ipsum, much tasty yum yum. Huzzah</p>
+              <i class="fa-solid fa-fish"></i>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="chicken">
+                  <p data-category="chicken" id="cat-test"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://static.vecteezy.com/system/resources/previews/030/129/706/large_2x/grilled-chicken-breast-with-vegetables-and-bread-on-a-black-background-ai-generated-photo.jpg" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top category-seafoodx">
+              <h4>Chicken</h4>
+              <p>Lorem ipsum, much tasty yum yum. Huzzah</p>
+              <i class="fa-solid fa-drumstick-bite"></i>
+       
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="chicken">
+                  <p data-category="chicken" id="cat-test"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://img.freepik.com/premium-photo/fresh-healthy-smoothies-from-different-berries-dark-background-diet-menu_2829-1229.jpg" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top category-seafoodx">
+              <h4>Shake</h4>
+              <p>Lorem ipsum, much tasty yum yum. Huzzah</p>
+              <i class="fa-solid fa-martini-glass-empty"></i>
+       
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="chicken">
+                  <p data-category="chicken" id="cat-test"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+         <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="data:image/jpeg;base64,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qsWxy+a6lHFN5aCnJLCZ74rGSSV3jia3DcB5ALwRAiSWyIbbeWcLOwulsRE3Zjle0VVA7hyF7vRYlDn8lwQOaNJkJtcHMkhcS5xJJ3kmyfUrO0TpmbDm4yOgcNoA/iAvIqPRRKKksNbExk4vKJqDWnFN2rLXF7tpxcMycsjRGWW5YGktJSzu2pXXW4DIDyCxEWMaoReUlkydk2sNmRgMa+F4fGaI9iORWdi9YJpGuBoF2TiPw/hH+qiUUuuLeWiY2ziulPYsTdaC1oa1hptbILsrqry8z7qEx+NkmkMkhtx9gBuaBwAXgiiFUYbpE2XTmsSYREVhUEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREB//Z" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top category-seafoodx">
+              <h4>Dessert</h4>
+              <p>Lorem ipsum, much tasty yum yum. Huzzah</p>
+              <i class="fa-solid fa-cookie"></i>
+       
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="chicken">
+                  <p data-category="chicken" id="cat-test"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        
+      </div>  
+
+    </section>
+
+    <section class="categories">
+
+    </section>
+
+    <section class="content_image"></section>
+
+    <section class="content_area"></section>
+
+    <footer></footer>
+
+  </div>
+</body>
+
+<section class="category-selection">
+  <!-- Nadpis -->
+  <h2>Category Selection</h2>
+  <!-- Bílé podtržítko -->
+  <hr>
+
+  <!-- Tabulka kategorií uprostřed stránky -->
+  <div>
+      <table>
+          <tr>
+              <td><i class="fa-solid fa-seedling" alt="Vegetarian Icon" id="veg-icon"></i></td>
+              <td><i class="fa-solid fa-fish" alt="Seafood Icon" id="seafood-icon"></i></td>
+              <td><i class="fa-solid fa-bowl-food" alt="Pasta Icon" id="pasta-icon"></i></td>
+              <td><i class="fa-solid fa-drumstick-bite" alt="Chicken Icon" id="chicken-icon"></i></td>
+              <td><i class="fa-solid fa-cookie-bite" alt="Snacks Icon" id="misc-icon"></i></td>
+              <td><i class="fa-solid fa-bacon" alt="Beef/Pork Icon" id="meats-icon"></i></td>
+              <td><i class="fa-solid fa-cake-candles" alt="Dessert Icon" id="dessert-icon"></i></td>
+          </tr>
+          <tr>
+              <td id="veg-icon">Vegetarian</td>
+              <td id="seafood-icon">Seafood</td>
+              <td id="pasta-icon">Pasta</td>
+              <td id="chicken-icon">Chicken</td>
+              <td id="misc-icon">Snacks</td>
+              <td id="meats-icon">Beef/Pork</td>
+              <td id="dessert-icon">Dessert</td>
+          </tr>
+      </table>
+  </div>
+
+   
+
+</section>
+
+<section class="heroimage">
+  <div class="text-box">
+    <h1 class="hero-title">Eat well, Perform well</h1>
+    <p class="hero-subtext">Fuel your body with the best recipes designed for athletes</p>
+  </div>
+</section>
+
+
+
+<!-- Section below the image+ 밑줄-->
+<section class="in-the-kitchen">
+  <h2>IN THE KITCHEN</h2>
+  <div class="underline"></div>
+</section>
+
+
+<!-- Section with 6 rectangles (3 rows of alternating text and images) -->
+<section class="grid-container">
+  <!-- Row 1 -->
+  <div class="grid-item text-left">
+    <h3>How to plate as a pro</h3>
+    <p>Learn the secrets of presentation to elevate your dishes.</p>
+    <button class="continue-button">Continue</button>
+  </div>
+  <div class="grid-item image-right">
+    <img src="https://assets.lummi.ai/assets/QmWjUv4SR4yUsxmPWa56SgG67TKC6JdVvcByW9xrhoW8fA?auto=format&w=600" alt="How to plate as a pro" />
+  </div>
+  
+  <!-- Row 2 -->
+  <div class="grid-item image-left">
+    <img src="https://www.maxphoto.co.uk/media/wysiwyg/recipe_book_layout.png" alt="Recipes are for champions" />
+  </div>
+  <div class="grid-item text-right">
+    <h3>Recipes are for champions</h3>
+    <p>Discover nutritious and delicious recipes to fuel your performance.</p>
+    <button class="continue-button">Continue</button>
+  </div>
+
+  <!-- Row 3 -->
+  <div class="grid-item text-left">
+    <h3>Meats - how to baste like a chef</h3>
+    <p>Master the art of basting for juicy and flavorful meats.</p>
+    <button class="continue-button">Continue</button>
+  </div>
+  <div class="grid-item image-right">
+    <img src="https://www.kerry.com/content/dam/kerry/cdprod/media/images/blog/meat-prep-hero2.jpg" alt="Meats - how to baste" />
+  </div>
+</section>
+
+<div class="grid-container">
+  <!-- 여기에 6개의 사각형 콘텐츠가 들어갑니다 -->
+</div>
+
+<div class="information-section">
+  <!-- 왼쪽: 소셜 미디어 아이콘 -->
+  <div class="social-icons">
+    <a href="https://www.youtube.com" target="_blank">
+      <img src="youtube-icon.png" alt="YouTube">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="facebook-icon.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="instagram-icon.png" alt="Instagram">
+    </a>
+  </div>
+
+  <!-- 가운데 구분선 -->
+  <div class="divider">|</div>
+
+  <!-- 오른쪽: 전화번호 및 이메일 링크 -->
+  <div class="contact-info">
+    <p>전화: <a href="tel:+1234567890">+123 456 7890</a></p>
+    <p style="margin-left: 20px;">이메일: <a href="mailto:info@example.com">info@example.com</a></p>
+  </div>
+</div>

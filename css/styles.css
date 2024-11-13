@@ -1,0 +1,339 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* 어두운 배경 */
+    color: #fff;
+}
+
+/* 상단 내비게이션 스타일 */
+.top-nav {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.top-nav span {
+    color: #fff; /* 구분자 색 (흰색) */
+    margin: 0 5px;
+}
+
+/* 링크 색상 */
+.orange-link {
+    color: #ff6600; /* HOME: 주황색 */
+}
+
+.white-link {
+    color: #fff; /* RECIPES와 ABOUT: 흰색 */
+}
+
+/* 링크에 마우스를 올렸을 때 */
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+body {/* 이제 사진+ soup 등등 */
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.recipe-subtitle {
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.recipe-title {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.recipe-title .highlight {
+    font-weight: bold;
+}
+
+.recipe-info {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.recipe-info i {
+    margin-right: 5px;
+}
+
+.ingredients-section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ingredients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+/* General Button Styling */
+.action-button {
+    position: relative;
+    display: inline-block;
+    background-color: transparent; /* Transparent background initially */
+    color: #fff; /* Text color white */
+    border: 2px solid #fff; /* Border color white */
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflow for the hover effect */
+    transition: color 0.3s ease;
+}
+
+/* Pseudo-element for hover fill effect */
+.action-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff6347; /* Orange fill color */
+    z-index: 0;
+    transform: scaleX(0); /* Start with no fill */
+    transform-origin: left;
+    transition: transform 0.3s ease; /* Smooth fill animation */
+}
+
+/* Hover effect to fill the inside with orange */
+.action-button:hover::before {
+    transform: scaleX(1); /* Expand to full width on hover */
+}
+
+/* Ensure text is on top of the fill */
+.action-button:hover {
+    color: #000; /* Change text color to black for contrast on hover */
+}
+
+/* Text styling on top of the pseudo-element */
+.action-button span {
+    position: relative;
+    z-index: 1; /* Keeps text above the pseudo-element */
+}
+
+
+
+.action-button:hover {
+    background-color: #333; /* Hover시 색상 변경 */
+}
+
+.image-section img {
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto 20px auto; /* 사진 아래에 여백 추가 */
+  }
+  
+  .instructions {
+    max-width: 800px;
+    margin-left: 30px; /* 왼쪽에서 30px 떨어진 위치로 배치 */
+    line-height: 1.6;
+  }
+  
+  .instructions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+  }
+  
+  .instructions p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.ingredient-checkbox { /*체크박스 주황색*/
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.ingredient-checkbox:checked {
+    background-color: orange;
+    border-color: orange;
+}
+
+
+.page2 { /*스텝 로테이트 한거*/
+    margin-top: 100px; 
+    display: flex;
+    gap: 30px;
+}
+
+.instructions {
+    flex: 6;
+    
+}
+
+.ingredients {
+    flex: 3;
+}
+
+
+.divider-line {
+    display: none; /* Hide if no longer needed */
+}
+
+
+
+
+.page3 { /*스텝 로테이트 한거*/
+    margin-top: 100px; 
+    display: flex;
+    gap: 30px;
+}
+
+.instructions2 {
+    flex: 6;
+    
+}
+
+.ingredients {
+    flex: 3;
+}
+
+/* Style for the step label */
+.step {
+    margin-top: 50px; /* Adjust this value to control spacing */
+    display: inline-block;
+    color: orange;
+    font-weight: bold;
+    transform: rotate(270deg);
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+
+.instructions2 ol li {
+    margin-bottom: 30px; /* Adjust this value to control spacing */
+}
+
+
+
+
+
+
+/* 직사각형 인포메이션 섹션 */
+.information-section {
+    background-color: #ff6600; /* 주황색 배경 */
+    padding: 40px 20px; /* 여백 추가 */
+    display: flex;
+    justify-content: space-between; /* 좌우로 요소 분리 */
+    align-items: center; /* 수직으로 중앙 정렬 */
+    color: #fff; /* 흰색 글자 */
+    margin: 10px auto; /* 거의 붙도록 위아래 간격 최소화 (10px) */
+    width: 100%; /* 전체 너비 */
+    max-width: 1600px; /* 최대 너비 설정 */
+    margin-top: 100px;
+  }
+  
+  .information-section .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .information-section .social-icons img {
+    width: 30px; /* 아이콘 크기 */
+    height: 30px; /* 아이콘 높이 */
+    margin-right: 15px; /* 아이콘 간의 간격 */
+  }
+  
+  .information-section .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .information-section .contact-info .divider {
+    margin: 0 15px; /* 구분선 좌우 간격 */
+    font-size: 24px; /* 구분선 크기 */
+  }
+  
+  .information-section a {
+    color: #fff; /* 링크 색상을 흰색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+  }
+  
+  .information-section a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+  }
+  
+  
+  
+  @media(width < 600) {
+    
+  } 

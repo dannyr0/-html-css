@@ -1,0 +1,43 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* 어두운 배경 */
+    color: #fff;
+}
+
+
+/* 상단 내비게이션 스타일 */
+.top-nav {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.top-nav span {
+    color: #fff; /* 구분자 색 (흰색) */
+    margin: 0 5px;
+}
+
+/* 링크 색상 */
+.orange-link {
+    color: #ff6600; /* HOME: 주황색 */
+}
+
+.white-link {
+    color: #fff; /* RECIPES와 ABOUT: 흰색 */
+}
+
+/* 링크에 마우스를 올렸을 때 */
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
