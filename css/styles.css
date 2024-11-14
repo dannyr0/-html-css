@@ -183,6 +183,7 @@ body {/* 이제 사진+ soup 등등 */
     max-width: 800px;
     display: block;
     margin: 0 auto 20px auto; /* 사진 아래에 여백 추가 */
+    
   }
   
   .instructions {
